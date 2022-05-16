@@ -208,27 +208,27 @@ export default function App(props) {
   const itemsList = [
     {
       text: "Dashboard",
-      icon: <DashboardIcon style={{ color: "#FFFBFC" }} />,
+      icon: <DashboardIcon style={{ color: "#95d3eb" }} />,
       onClick: () => history.push("/admin/dashboard"),
     },
     {
       text: "Active Orders",
-      icon: <AlarmIcon style={{ color: "#FFFBFC" }} />,
+      icon: <AlarmIcon style={{ color: "#95d3eb" }} />,
       onClick: () => history.push("/admin/activeorders"),
     },
     {
       text: "All Orders",
-      icon: <HistoryIcon style={{ color: "#FFFBFC" }} />,
+      icon: <HistoryIcon style={{ color: "#95d3eb" }} />,
       onClick: () => history.push("/admin/allorders"),
     },
     {
       text: "Menu Manager",
-      icon: <ReceiptIcon style={{ color: "#FFFBFC" }} />,
+      icon: <ReceiptIcon style={{ color: "#95d3eb" }} />,
       onClick: () => history.push("/admin/menu"),
     },
     {
       text: "Your QR",
-      icon: <CropFreeIcon style={{ color: "#FFFBFC" }} />,
+      icon: <CropFreeIcon style={{ color: "#95d3eb" }} />,
       onClick: () => history.push("/admin/qr"),
     },
   ];
@@ -242,7 +242,7 @@ export default function App(props) {
             style={{ marginRight: "20px" }}
           />
           <Typography variant="h6" display="block">
-            Validating Credentials
+            Validating CredentialsHall o
           </Typography>
         </Backdrop>
       )}
@@ -295,7 +295,7 @@ export default function App(props) {
                 return (
                   <ListItem button key={text} onClick={onClick}>
                     {icon && <ListItemIcon>{icon}</ListItemIcon>}
-                    <ListItemText primary={text} />
+                    <ListItemText primary={text} style={{color: 'black'}} />
                   </ListItem>
                 );
               })}

@@ -1167,8 +1167,8 @@ function App(props) {
                                         align="center"
                                         style={{ lineHeight: "10px" }}
                                       >
-                                        <img
-                                          src="https://i.ibb.co/2qXkVjZ/Yum-Trip-Logo.jpg"
+                                        {/* <img
+                                          src=""
                                           style={{
                                             display: "block",
                                             height: "auto",
@@ -1177,7 +1177,7 @@ function App(props) {
                                             maxWidth: "100%",
                                           }}
                                           width={320}
-                                        />
+                                        /> */}
                                       </div>
                                     </td>
                                   </tr>
